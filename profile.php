@@ -62,11 +62,12 @@
             padding: 0 20px;
         }
         .faq-section {
-            margin-bottom: 20px;
+            max-width: 1000px;
+            margin-bottom: 25px;
             background-color: #fff;
             border-radius: 10px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            padding: 20px;
+            padding: 25px;
         }
         .faq-section h2 {
             margin-top: 0;
@@ -95,13 +96,13 @@
 <main>
     <section class="faq-section">
         <p align="justify">
-            Di Bimba Cerdas, kami membantu anak-anak usia TK belajar dengan cara yang menyenangkan! Kami melakukan banyak aktivitas seru seperti bermain, menyanyi, dan membuat kerajinan tangan. Melalui kegiatan-kegiatan ini, anak-anak dapat belajar hal-hal baru seperti angka, huruf, dan warna dengan cara yang menyenangkan. Guru-guru kami adalah teman baik anak-anak dan mereka selalu siap membantu. Mereka mengajarkan anak-anak cara berbicara, menghitung, dan melakukan banyak hal lainnya. Kami juga punya banyak mainan dan alat peraga yang menarik untuk membantu anak-anak memahami pelajaran dengan lebih mudah. Kami selalu ingin tahu bagaimana perkembangan anak-anak, jadi kami sering mengadakan permainan dan tes kecil untuk melihat apa yang sudah dipelajari anak-anak. Jika ada yang belum dimengerti, jangan khawatir, kami akan selalu membantu anak-anak belajar lebih baik. Kami juga senang berbicara dengan orangtua untuk berbagi informasi tentang anak-anak. Orangtua adalah teman terbaik kami dan kami selalu ingin bekerja sama dengan mereka untuk membantu anak-anak tumbuh dan belajar dengan baik. Jadi, di Bimba Cerdas, belajar itu menyenangkan dan kami selalu siap membantu anak-anak belajar dengan cara yang paling menyenangkan dan efektif!
+            Di Bimba MAKRTZ, kami membantu anak-anak usia TK belajar dengan cara yang menyenangkan! Kami melakukan banyak aktivitas seru seperti bermain, menyanyi, dan membuat kerajinan tangan. Melalui kegiatan-kegiatan ini, anak-anak dapat belajar hal-hal baru seperti angka, huruf, dan warna dengan cara yang menyenangkan. Guru-guru kami adalah teman baik anak-anak dan mereka selalu siap membantu. Mereka mengajarkan anak-anak cara berbicara, menghitung, dan melakukan banyak hal lainnya. Kami juga punya banyak mainan dan alat peraga yang menarik untuk membantu anak-anak memahami pelajaran dengan lebih mudah. Kami selalu ingin tahu bagaimana perkembangan anak-anak, jadi kami sering mengadakan permainan dan tes kecil untuk melihat apa yang sudah dipelajari anak-anak. Jika ada yang belum dimengerti, jangan khawatir, kami akan selalu membantu anak-anak belajar lebih baik. Kami juga senang berbicara dengan orangtua untuk berbagi informasi tentang anak-anak. Orangtua adalah teman terbaik kami dan kami selalu ingin bekerja sama dengan mereka untuk membantu anak-anak tumbuh dan belajar dengan baik. Jadi, di Bimba MAKRTZ, belajar itu menyenangkan dan kami selalu siap membantu anak-anak belajar dengan cara yang paling menyenangkan dan efektif!
         
         </p>
         <br>
         <h3>Visi</h3><br>
         <p align="justify">
-            Visi Bimba Cerdas adalah ingin membuat anak-anak merasa senang belajar dan menjadi pintar di sekolah. Kami ingin membantu anak-anak menjadi hebat dalam hal belajar dan juga menjadi baik dalam hal bersosialisasi dengan teman-teman mereka.
+            Visi Bimba MAKRTZ adalah ingin membuat anak-anak merasa senang belajar dan menjadi pintar di sekolah. Kami ingin membantu anak-anak menjadi hebat dalam hal belajar dan juga menjadi baik dalam hal bersosialisasi dengan teman-teman mereka.
         </p>
 
         <br>

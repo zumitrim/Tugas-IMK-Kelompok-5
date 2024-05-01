@@ -35,13 +35,81 @@
 </head>
 
 <body>
+<?php include('napigasi.php'); ?>
+<center><h2>KELAS</h2></center>
+<div class = "container5">
+<div class ="kelas">
 
-  <?php include('napigasi.php'); ?>
+</div>
+	<div class="gallery">
+		<img src="images/K12.jpg"  >
+		<div class ="desc">
+				<h3>Kelas Intensif</h3>
+        <p>Program ini biasanya dilakukan menjelan Ujian Nasional atau SBMPTN. Bagi kamu yang ingin mengikuti program ini harus segera menyiapkan waktu, karena namanya juga program intensif, kamu akan dituntut untuk masuk les setiap hari dalam waktu yang tidak sebentar. </p>
+			</div>
+		</div>
+		<div class="gallery">
+		<img src="images/K2.jpg" >
+		<div class ="desc">
+				<h3>Kelas Reguler</h3>
+        <p>Bila program intensif dilakukan setiap hari, maka program regular ini biasanya dilakukan seminggu dua hingga tiga kali. Program ini memang tidak terlalu intensif, namun dilakukan dalam jangka waktu yang cukup lama. </p>
+			</div>
+		</div>
+		<div class="gallery">
+		<img src="images/K13.jpg">
+		<div class ="desc">
+				<h3>Kelas Minggu</h3>
+        <p>Program ini biasanya dilakukan untuk memfasilitasi murid-murid yang terlalu sibuk saat hari-hari sekolahnya. Terkadang juga program ini dibuat untuk para mahasiswa yang ingin memperdalam mata pelajaran tertentu, seperti fisika dasar dan kalkulus.</p>
+			</div>
+		</div>
+		
+</div>
+		
 
-    KELAS
+<style>
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+  
+.container5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; /* changed to row */
+  text-align: justify;
+}
 
+.kelas {
+  text-align: center;
+}
 
+.gallery {
+  margin: 20px;
+}
+.gallery img {
+  width: 300px; /* Sesuaikan dengan ukuran yang diinginkan */
+  height: 200px; /* Sesuaikan dengan ukuran yang diinginkan */
+  display: block;
+  margin: 0 auto;
+}
+.desc {
+  text-align: center;
+}
+.gallery .desc {
+    margin-top: 20px;
+  }
+  .gallery .desc h3 {
+    margin-bottom: 10px;
+  }
 
+</style>
 
   <?php include('footer.php'); ?>
 

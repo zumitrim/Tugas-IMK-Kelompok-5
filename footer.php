@@ -25,7 +25,7 @@
         <div class="row">
             <div class="col-md-4">
                 <h3>Tentang Kami</h3><br>
-                <p>"Kami di Bimbel Cerdas hadir untuk membantu setiap siswa meraih potensi maksimal mereka dengan pendekatan belajar yang inovatif dan mendukung."</p>
+                <p>"Kami di Bimbel MAKRTZ hadir untuk membantu setiap siswa meraih potensi maksimal mereka dengan pendekatan belajar yang inovatif dan mendukung."</p>
             </div>
             <div class="col-md-4">
                 <h3>Link Cepat</h3><br>

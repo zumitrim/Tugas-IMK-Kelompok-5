@@ -72,25 +72,25 @@
             <!-- Thumbnails -->
             <div class="row margin-atas">
                 <!-- thumbnail 1 -->
-                <div class="col-sm-6 col-md-3">
+                <div class="col-sm-3 col-md-4">
                     <div class="thumbnail">
                         <img src="images/FUTSALL.jpg" alt="Lomba Futsal">
                         <div class="caption">
-                            <h3>Lomba 1</h3>
+                            <h3>Lomba Matematika</h3>
                         </div>
                     </div>
                 </div>
                 <!-- thumbnail 2 -->
-                <div class="col-sm-6 col-md-3">
+                <div class="col-sm-3 col-md-4">
                     <div class="thumbnail">
                         <img src="images/basket.jpg" alt="Lomba Basket">
                         <div class="caption">
-                            <h3>Lomba 2</h3>
+                            <h3>Lomba Bahasa Inggris</h3>
                         </div>
                     </div>
                 </div>
                 <!-- thumbnail 3 -->
-                <div class="col-sm-6 col-md-3">
+                <div class="col-sm-3 col-md-4">
                     <div class="thumbnail">
                         <img src="images/tanaman.jpg" alt="Hari Pohon Sedunia">
                         <div class="caption">
@@ -99,11 +99,11 @@
                     </div>
                 </div>
                 <!-- thumbnail 4 -->
-                <div class="col-sm-6 col-md-3">
+                <div class="col-sm-3 col-md-4">
                     <div class="thumbnail">
                         <img src="images/voly.jpg" alt="Lomba voly">
                         <div class="caption">
-                            <h3>Lomba 3</h3>
+                            <h3>Outing Bogor</h3>
                         </div>
                     </div>
                 </div>
