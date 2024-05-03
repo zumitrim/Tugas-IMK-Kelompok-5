@@ -1,22 +1,20 @@
 <style>
-    /* CSS untuk footer */
     footer {
         background-color: #e14177;
         color: #FFFFFF;
         padding: 50px 0;
-        position: none; /* agar footer tetap di bagian bawah layar */
-        bottom: 0; /* tepi bawah layar */
-        width: 100%; /* agar lebar footer sama dengan layar */
+        position: none;
+        bottom: 0;
+        width: 100%;
     }
 
-    /* CSS untuk tautan di footer */
     .footer-links a {
         color: #FFFFFF;
         transition: color 0.3s ease;
     }
 
     .footer-links a:hover {
-        color: #6DCFFB; /* Warna Malibu */
+        color: #6DCFFB;
     }
 </style>
 
@@ -38,21 +36,15 @@
             </div>
             <div class="col-md-4">
                 <h3>Hubungi Kami</h3><br>
-                <p>Alamat: Jalan Contoh No. 123, Kota Anda</p>
-                <p>Email: info@contohweb.com</p>
-                <p>Telepon: 123-456-7890</p>
+                <p>Alamat: Jl. Raya Puspitek, Buaran, Kec. Pamulang, Kota Tangerang Selatan, Banten 15310</p>
+                <p>Email: info@bimbelmakrtz.com</p>
+                <p>Telepon: +62123-456-7890</p>
             </div>
         </div>
         <hr style="border-color: #6dcffb;">
         <div class="row">
             <div class="col-md-6">
                 <p>&copy; 2024 BIMBA MAKRTZ. All rights reserved.</p>
-            </div>
-            <div class="col-md-6" style="text-align: right;">
-                <ul class="list-inline">
-                    <li>Kebijakan Privasi</li>
-                    <li>Syarat dan Ketentuan</li>
-                </ul>
             </div>
         </div>
     </div>

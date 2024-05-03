@@ -1,13 +1,11 @@
 <?php session_start(); ?>
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 
 <head>
   <title>Bimba MAKRTZ</title>
-  <!-- Meta tag Keywords -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="keywords" content="Bimba MAKRTZ web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
   <script type="application/x-javascript">
     addEventListener("load", function() {
       setTimeout(hideURLbar, 0);
@@ -17,8 +15,6 @@
       window.scrollTo(0, 1);
     }
   </script>
-  <!--// Meta tag Keywords -->
-  <!-- css files -->
   <link rel="stylesheet" href="css/bootstrap.css"> <!-- Bootstrap-Core-CSS -->
   <link rel="stylesheet" href="css/style.css" type="text/css" media="all" /> <!-- Style-CSS -->
   <link rel="stylesheet" href="css/font-awesome.css"> <!-- Font-Awesome-Icons-CSS -->
@@ -26,39 +22,94 @@
   <link rel="stylesheet" href="css/roma.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
   <link rel="stylesheet" href="css/jquery-ui.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Tambahkan link ke font-awesome -->
-  <!-- //css files -->
-  <!-- online-fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link href="//fonts.googleapis.com/css?family=Exo+2:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,latin-ext" rel="stylesheet">
   <link href="//fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext" rel="stylesheet">
-  <!-- //online-fonts -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container5 {
+      max-width: 1200px;
+      margin: auto;
+      overflow: auto;
+    }
+
+    .gallery {
+      margin: 5px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 390px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 200px;
+    }
+
+    .judul h2 {
+      margin-top: 20px;
+    }
+
+    .warna-teks {
+      margin-left: 5px;
+      color: #000000;
+    }
+
+    header {
+      max-width: 1000px;
+      background-color: #6c6c6c;
+      color: #fff;
+      text-align: center;
+      margin: 20px auto;
+      padding: 20px 0;
+      border-radius: 10px;
+      margin-top: 60px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+  </style>
 </head>
 
 <body>
 
-  <?php include('napigasi.php'); ?>
+  <?php include('navigasi.php'); ?>
 
-  GALERI OUTING
+  <header>
+    <h1>Galeri Outing</h1>
+  </header>
+
+  <div class="container5">
+    <div class="gallery">
+      <img src="images/outing/outing.jpg">
+    </div>
+    <div class="gallery">
+      <img src="images/outing/outing2.jpg">
+    </div>
+    <div class="gallery">
+      <img src="images/outing/outing3.jpg">
+    </div>
+    <div class="gallery">
+      <img src="images/outing/outing4.jpg">
+    </div>
+  </div>
 
   <?php include('footer.php'); ?>
 
-
-
-  <!-- js-scripts -->
-  <!-- js-files -->
   <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.js"></script> <!-- Necessary-JavaScript-File-For-Bootstrap -->
-  <!-- //js-files -->
-  <!-- Baneer-js -->
-
-
-  <!-- smooth scrolling -->
+  <script type="text/javascript" src="js/bootstrap.js"></script>
   <script src="js/SmoothScroll.min.js"></script>
-  <!-- //smooth scrolling -->
-  <!-- stats -->
   <script type="text/javascript" src="js/numscroller-1.0.js"></script>
-  <!-- //stats -->
-  <!-- moving-top scrolling -->
   <script type="text/javascript" src="js/move-top.js"></script>
   <script type="text/javascript" src="js/easing.js"></script>
   <script type="text/javascript">
@@ -73,47 +124,30 @@
   </script>
   <script type="text/javascript">
     $(document).ready(function() {
-      /*
-      	var defaults = {
-      	containerID: 'toTop', // fading element id
-      	containerHoverID: 'toTopHover', // fading element hover id
-      	scrollSpeed: 1200,
-      	easingType: 'linear' 
-      	};
-      */
       $().UItoTop({
         easingType: 'easeOutQuart'
       });
     });
   </script>
   <a href="#home" class="scroll" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-  <!-- //moving-top scrolling -->
-  <!-- gallery popup -->
   <script src="js/jquery.swipebox.min.js"></script>
   <script type="text/javascript">
     jQuery(function($) {
       $(".swipebox").swipebox();
     });
   </script>
-  <!-- //gallery popup -->
-  <!--/script-->
   <script src="js/simplePlayer.js"></script>
   <script>
     $("document").ready(function() {
       $("#video").simplePlayer();
     });
   </script>
-  <!-- //Baneer-js -->
-  <!-- Calendar -->
   <script src="js/jquery-ui.js"></script>
   <script>
     $(function() {
       $("#datepicker").datepicker();
     });
   </script>
-  <!-- //Calendar -->
-
-  <!-- //js-scripts -->
 </body>
 
 </html>
